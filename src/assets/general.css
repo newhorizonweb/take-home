@@ -1,0 +1,28 @@
+
+
+
+:root{
+    /* Width & height auto transition */
+    interpolate-size:allow-keywords;
+    
+        /* Colors */
+
+    /* Main */
+    --color1:#07ABDB;
+
+    /* Warning */
+    --warnColor:#FF0000;
+
+        /* Transitions */
+
+    --trans1:0.1s  ease-in-out;
+    --trans2:0.15s ease-in-out;
+    --trans3:0.25s ease-in-out;
+    --trans4:0.35s ease-in-out;
+
+}
+
+html{
+    /* Prevents layout shifting when the list is too long */
+    scrollbar-gutter:stable;
+}

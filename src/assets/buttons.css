@@ -1,0 +1,12 @@
+
+
+
+.main-btn{
+    transition:var(--trans2);
+
+    &:hover:not(:disabled), &.btn-active{
+        background-color:var(--color1);
+    }
+
+}
+

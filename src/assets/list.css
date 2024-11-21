@@ -1,0 +1,43 @@
+
+
+
+.card{
+    overflow:hidden;
+
+    & .text-sm{
+        height:0;
+        opacity:0;
+        transition:var(--trans2);
+    }
+
+    & svg{
+        transition:var(--trans2);
+
+        *{
+           transition:inherit; 
+        }
+
+        &:is(.chevron, .revert-icon):hover *{
+            fill:var(--color1);
+        }
+
+        &.x-icon:hover *{
+            fill:var(--warnColor);
+        }
+
+    }
+
+    &.card-expand{
+
+        & .text-sm{
+            height:auto;
+            opacity:1;
+        }
+
+        & .chevron{
+            transform:rotate(180deg);
+        }
+
+    }
+
+}

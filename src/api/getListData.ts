@@ -28,7 +28,7 @@ export const useGetListData = () => {
       });
     },
   });
-
+  
   return query;
 };
 
